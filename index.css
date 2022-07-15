@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url(CursedTimer.ttf);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 375px;
+    background: #1B244A;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+#home-score, 
+#guest-score,
+.addOne, 
+.addThree,
+.addTwo {
+    margin: 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score, 
+#guest-score {
+    background: black;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 70px;
+    color: #F43F5E;
+    width: 120px;
+    font-family: "CursedTimer";
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.addScore {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.addOne,
+.addTwo,
+.addThree {
+    font-size: 16px;
+    margin-top: 15px;
+    background: #1B244A;
+    padding: 8px;
+    border: 1px solid #9AABD8;
+    color: #9AABD8; 
+    border-radius: 5px;
+    font-family: "CursedTimer";
+}
+
+#reset-btn {
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #1B244A;
+    border: 1px solid #9AABD8; 
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.addOne,
+.addTwo,
+.addThree, 
+#reset-btn {
+    cursor: pointer;
+}

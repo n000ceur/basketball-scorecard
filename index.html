@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="font" href="https://www.fontspace.com/cursed-timer-ulil-font-f29411">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p id="home-score"><span>0</span></p>
+                <div class="addScore">
+                    <button class="addOne" onclick="plusOne()">+1</button>
+                    <button class="addTwo" onclick="plusTwo()">+2</button>
+                    <button class="addThree" onclick="plusThree()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p id="guest-score"><span>0</span></p>
+                <div class="addScore">
+                    <button class="addOne" onclick="guestPlusOne()">+1</button>
+                    <button class="addTwo" onclick="guestPlusTwo()">+2</button>
+                    <button class="addThree" onclick="guestPlusThree()">+3</button>
+                </div>
+            </div>
+        </div>
+         <button id="reset-btn" onclick="resetScore()">RESET SCORES</button>
+        <script src="index.js"></script>
+    </body>
+</html>
